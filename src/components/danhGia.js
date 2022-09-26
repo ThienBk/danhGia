@@ -80,7 +80,7 @@ export default function DanhGia() {
                 <tbody>
                     {list.map((li, i) => {
                         return (
-                            <tr>
+                            <tr key={i}>
                                 <th> {li.id} </th>
                                 <td> {li.name} </td>
                                 <td> {li.loTrinh} </td>
